@@ -17,9 +17,9 @@ in this folder, you are in the wrong place.
 /* Exercise Two: Positioning a Header Bar*/
 
 /* Place code here */
-#excerciseTwo {
-  visibility: hidden;
-}
+#exerciseTwo {
+  display:none
+  }
 
 
 
@@ -39,17 +39,17 @@ in this folder, you are in the wrong place.
 
 
 /* Place code here */
-#excerciseFour {
-  position: fixed;
-  top: 0px;
-  bottom: 0px;
+#exerciseFour {
+  position: absolute;
+  top: 0;
+  left: 0; 
 }
 
 
 /* Exercise Five */
 
 /* Place code here */
-#excerciseFive {
+#exerciseFive {
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
@@ -60,6 +60,6 @@ in this folder, you are in the wrong place.
 
 #exerciseSeven {
   display: flex;
-  justify-content: center;
-  flex-flow: row wrap-reverse;
+  align-items: space-between;
+  flex-flow: column-reverse nowrap;
 }
